@@ -149,7 +149,7 @@ const Canvas = ({ backgroundList, characterList }) => {
           ></DialogueBox>
         ) : null}
         <canvas
-          width="16000px"
+          width="10000px"
           height={dimensions.height}
           ref={canvas}
           className={styles.canvas}
