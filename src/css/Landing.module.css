@@ -1,0 +1,18 @@
+.root {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.img {
+  width: 100vw;
+  height: auto;
+}
+
+.button {
+  position: fixed;
+  height: 10vh;
+  top: 40%;
+  left: 40%;
+  width: 20vw;
+}
