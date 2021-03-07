@@ -11,11 +11,11 @@ That's how we came up with W-aple Story! A fun way to celebrate women in stem on
 W*-apleStory is an interactive timeline of Women* Footprints throughout history, where you're able to add a woman to your network who created an impact or meet some women* in the past.
 
 # How we built it
-NodeJS
-React
-MTLH Canvas
-Maplestory API
-Heroku/Domain.com
+NodeJS, 
+React, 
+MTLH Canvas, 
+Maplestory API ,
+Groundswell - Heroku/Domain.com ,
 Figma
 
 # Challenges we ran into
