@@ -48,6 +48,7 @@ const Canvas = ({ backgroundList, characterList }) => {
           yLoc: character.yLoc,
           name: character.name,
           info: character.info,
+          link: character.link,
         });
       };
       img.src = blob;
@@ -128,6 +129,7 @@ const Canvas = ({ backgroundList, characterList }) => {
             name={dialogueBox.name}
             dialogue={dialogueBox.info}
             character={dialogueBox.img}
+            link={dialogueBox.link}
           ></DialogueBox>
         ) : null}
         <canvas

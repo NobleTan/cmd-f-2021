@@ -7,6 +7,7 @@ export const characterList = [
       "Bassi was the second woman in the world to earn the degree of Doctor of Philosophy. She eventually became the first female university professor in the world",
     xLoc: 300,
     yLoc: 535,
+    link: "https://en.wikipedia.org/wiki/Laura_Bassi",
   },
   {
     name: "María Andrea Casamayor (1720)",
@@ -16,6 +17,7 @@ export const characterList = [
       "Spanish mathematician, writer and Spanish girls’ school teacher Casamayor published two books on arithmetic. She is one of the few 18th century Spanish women scientists and mathematicians whose work has been preserved",
     xLoc: 500,
     yLoc: 535,
+    link: "https://en.wikipedia.org/wiki/Mar%C3%ADa_Andrea_Casamayor",
   },
   {
     name: "Wang Zhenyi (1768)",
@@ -25,6 +27,7 @@ export const characterList = [
       "Zhenyi breached the feudal customs of the time which hindered women's rights and arduously worked to educate herself in subjects such as astronomy, mathematics, geography, and medicine. Published at least twelve books and multiple articles on astronomy and mathematics",
     xLoc: 700,
     yLoc: 265,
+    link: "https://en.wikipedia.org/wiki/Wang_Zhenyi_(astronomer)",
   },
   {
     name: "Mary Somerville (1780)",
@@ -34,6 +37,7 @@ export const characterList = [
       "Scientist, mathematician and astrologist she carried out experiments in magnetism and presented the paper 'The Magnetic Properties of the Violet Rays of the Solar Spectrum' to the Royal Society in 1826",
     xLoc: 900,
     yLoc: 535,
+    link: "https://en.wikipedia.org/wiki/Mary_Somerville",
   },
   {
     name: "Ada Lovelace (1815)",
@@ -43,6 +47,7 @@ export const characterList = [
       "Ada was the daughter of romantic poet, Lord Byron, and his wife, Anna Isabella-Byron. Her mathematical talent shone through in her early life, and her skills and interest in machines lead to a working relationship with Charles Babbage. Babbage was the inventor of the “Analytical Engine”, a complicated device that was never actually created, but resembled the elements of a modern computer. As a result of her work on the project, Ada is often referred to as the world’s first computer programmer. It was Lovelace's notes on the Analytical Engine that Alan Turing used as a form of inspiration for his work on the first modern computer in the 1940s",
     xLoc: 2000,
     yLoc: 536,
+    link: "https://en.wikipedia.org/wiki/Ada_Lovelace",
   },
   {
     name: "Maria Mitchell (1818)",
@@ -52,6 +57,7 @@ export const characterList = [
       "Astronomer, librarian, naturalist, and educator.Mitchell was the first female astronomer in the United States and the first American scientist to discover a comet. She was an early advocate for science and math education for girls and the first female astronomy professor.",
     xLoc: 2600,
     yLoc: 536,
+    link: "https://en.wikipedia.org/wiki/Maria_Mitchell",
   },
   {
     name: "Susan La Flesche Picotte (1865)",
@@ -61,6 +67,7 @@ export const characterList = [
       "Picotte was the first Native American woman in the United States to receive a medical degree. She trained as a physician, so she could provide care for the people she lived with on the reservation.",
     xLoc: 2700,
     yLoc: 219,
+    link: "https://en.wikipedia.org/wiki/Susan_La_Flesche_Picotte",
   },
 
   {
@@ -71,6 +78,7 @@ export const characterList = [
       "Defied expectations of society and went to america to study western medicine. First female of Indian origin to study and graduate with a degree in medicine in the United States.",
     xLoc: 2800,
     yLoc: 536,
+    link: "https://en.wikipedia.org/wiki/Anandi_Gopal_Joshi",
   },
   {
     name: "Alice Augusta Ball (1892)",
@@ -80,6 +88,7 @@ export const characterList = [
       "Ball was the first woman and first African American to receive a master's degree from the University of Hawaii. She discovered the most effective treatment for leprosy during the early 20th century",
     xLoc: 3200,
     yLoc: 536,
+    link: "https://en.wikipedia.org/wiki/Alice_Ball",
   },
   {
     name: "Grace Hopper (1906)",
@@ -89,6 +98,7 @@ export const characterList = [
       "Undeniably famous in the tech world, Rear Admiral Grace M. Hopper was an esteemed computer scientist and one of the first computer programmers to work on the Harvard Mark I. Her work led to the development of COBOL, an early programming language we is still used to this day. In 1947, she recorded the worlds first ever real computer bug, and it is also said that she coined the phrase: it is often easier to ask for forgiveness than to ask for permission.",
     xLoc: 4000,
     yLoc: 330,
+    link: "https://en.wikipedia.org/wiki/Grace_Hopper",
   },
   {
     name: "Dorothy Vaughan (1910)",
@@ -98,6 +108,7 @@ export const characterList = [
       "Vaughan was NASA’s first female African-American manager. Taught herself and her staff the programming language of Fortran",
     xLoc: 4200,
     yLoc: 330,
+    link: "https://en.wikipedia.org/wiki/Dorothy_Vaughan",
   },
   {
     name: "Hedy Lamarr (1914)",
@@ -107,6 +118,7 @@ export const characterList = [
       "Hedy was a self-taught inventor and film actress, who was awarded a patent in 1942 for her secret communication system, designed with the help of the composer George Antheil. This frequency hopping system was intended as a way to set radio-guided torpedos off course during the war, but the idea eventually inspired Wi-Fi, GPS and Bluetooth technology commonly used today.",
     xLoc: 4500,
     yLoc: 583,
+    link: "https://en.wikipedia.org/wiki/Hedy_Lamarr",
   },
   {
     name: "Sameera Moussa (1917)",
@@ -116,6 +128,7 @@ export const characterList = [
       "Moussa promoted the peaceful use of nuclear technology and wanted medical nuclear technology to be available and affordable for everyone to use.",
     xLoc: 4700,
     yLoc: 223,
+    link: "https://en.wikipedia.org/wiki/Sameera_Moussa",
   },
   {
     name: "Katherine Johnson (1918)",
@@ -125,6 +138,7 @@ export const characterList = [
       "Katherine’s trajectory analysis as a mathematician for NASA was crucial to the success of the first ever US space flight. Her complex manual calculations were also critical in future space missions, including the first American in orbit, John Glenn. Katherine ran the numbers programmed into the computer at NASA for the flight by hand, at the request of Glenn. Katherine remembers him saying if she says they’re good... then I’m ready to go. At age 97, she was awarded the Presidential Medal of Freedom, America’s highest civilian honour, by President Obama.",
     xLoc: 4900,
     yLoc: 223,
+    link: "https://en.wikipedia.org/wiki/Katherine_Johnson",
   },
   {
     name: "Elizabeth Feinler (1931)",
@@ -134,6 +148,7 @@ export const characterList = [
       "Between 1972 to 1989, Elizabeth ran the Network Information Center in California, which was a bit like a pre-historic Google. The NIC was the first place to publish the resources and directories for the Internet, developing the original white pages and yellow pages directories. Her group also developed the domain naming scheme of .com, .edu, .gov, .net, and many more that we use so commonly today.",
     xLoc: 6000,
     yLoc: 583,
+    link: "https://en.wikipedia.org/wiki/Elizabeth_J._Feinler",
   },
   {
     name: "Annie Easley (1933)",
@@ -143,6 +158,7 @@ export const characterList = [
       "Easley developed and implemented code used in researching energy-conversion systems, analyzing alternative power technology—including the battery technology that was used for early hybrid vehicles, as well as for the Centaur upper-stage rocket.",
     xLoc: 6500,
     yLoc: 583,
+    link: "https://en.wikipedia.org/wiki/Annie_Easley",
   },
   //   {
   //     name: "Karen Sparck-Jones (1935)",
