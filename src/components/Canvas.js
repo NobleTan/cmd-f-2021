@@ -6,8 +6,10 @@ import DialogueBox from "../components/DialogueBox";
 
 const Canvas = ({ backgroundList, characterList }) => {
   const canvas = useRef();
+  const myRef = useRef();
   const [characters, setCharacters] = useState([]);
   const [dialogueBox, setDialogueBox] = useState({});
+  const [myCharacter, set] = useState({});
   const [showDialogueBox, setShowDialogueBox] = useState(false);
   const [dimensions] = useState({
     width: window.innerWidth,
@@ -28,6 +30,7 @@ const Canvas = ({ backgroundList, characterList }) => {
     if (!canv) return;
 
     const ctx = canv.getContext("2d");
+    moveFocus();
     drawErrthang(ctx);
   }, []);
 
@@ -121,9 +124,22 @@ const Canvas = ({ backgroundList, characterList }) => {
     });
   }
 
+  let moveFocus = () => {
+    const node = myRef.current;
+    node.addEventListener("keydown", function (e) {
+      const active = document.activeElement;
+      if (e.keyCode === 40 && active.nextSibling) {
+        active.nextSibling.focus();
+      }
+      if (e.keyCode === 38 && active.previousSibling) {
+        active.previousSibling.focus();
+      }
+    });
+  };
+
   return (
     <div className={styles.container}>
-      <div className={styles.whiteboard}>
+      <div ref={myRef} className={styles.whiteboard}>
         {showDialogueBox ? (
           <DialogueBox
             name={dialogueBox.name}

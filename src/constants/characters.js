@@ -205,3 +205,8 @@ export const characterList = [
   //       "Maryam Mirzakhani was an Iranian mathematician and a professor of mathematics at Stanford University. Her research topics included Teichmüller theory, hyperbolic geometry, ergodic theory, and symplectic geometry.",
   //   },
 ];
+
+export const myCharacter = {
+  url:
+    "https://maplestory.io/api/character/%7B%22itemId%22%3A2000%2C%22version%22%3A%22220%22%7D%2C%7B%22itemId%22%3A12000%2C%22version%22%3A%22220%22%7D%2C%7B%22itemId%22%3A47430%2C%22version%22%3A%22220%22%7D%2C%7B%22itemId%22%3A50136%2C%22version%22%3A%22220%22%7D%2C%7B%22itemId%22%3A1022074%2C%22version%22%3A%22220%22%7D%2C%7B%22itemId%22%3A1050136%2C%22version%22%3A%22220%22%7D%2C%7B%22itemId%22%3A1070080%2C%22version%22%3A%22220%22%7D/stand1/0?showears=false&showLefEars=false&showHighLefEars=undefined&resize=1&name=Katherine%20Johnson&flipX=undefined",
+};
