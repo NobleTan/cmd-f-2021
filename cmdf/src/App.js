@@ -1,14 +1,13 @@
 import "./App.css";
 import Canvas from "./components/Canvas";
+import DialogueBox from "./components/DialogueBox";
+import { backgroundsList } from "./constants/backgrounds";
 import { characterList } from "./constants/characters";
 
 function App() {
   return (
     <div className="App">
-      <Canvas
-        backgroundUrl="https://maplestory.io/api/THMS/20.1.0/map/110000/render"
-        characterList={characterList}
-      />
+      <Canvas backgroundList={backgroundsList} characterList={characterList} />
     </div>
   );
 }

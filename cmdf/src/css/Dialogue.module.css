@@ -1,0 +1,54 @@
+.root {
+  display: flex;
+  position: fixed;
+  width: 500px;
+  left: 50vh;
+  top: 0;
+  margin: 0;
+  background: linear-gradient(180deg, #4a4230 32.98%, #695c44 100%),
+    linear-gradient(0deg, #675943, #675943);
+
+  padding: 1% 2%;
+  border-radius: 11px;
+}
+
+.name {
+  margin: 0;
+  position: absolute;
+  bottom: -1px;
+  color: white;
+  width: 144px;
+  padding: 4px 0px;
+  border-radius: 5px;
+  background: linear-gradient(
+      180deg,
+      #2a4f5f -13.83%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(0deg, #52a2c2, #52a2c2);
+  border: 2px solid #2c5a6c;
+  font-size: 0.6em;
+}
+
+.wrapper {
+  position: relative;
+  width: 109px;
+  display: flex;
+  margin-right: 24px;
+  justify-content: center;
+}
+
+.dialogue {
+  color: white;
+  font-size: 0.8em;
+  text-align: left;
+  padding: 4.5px 14px;
+}
+
+.dialogue_wrapper {
+  background: #675943;
+  overflow-y: auto;
+  margin-left: 15px;
+  border-radius: 5px;
+  height: 99px;
+}

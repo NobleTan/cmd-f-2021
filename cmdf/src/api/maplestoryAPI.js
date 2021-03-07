@@ -6,15 +6,12 @@ export const getPresetCharacter = async (apiString) => {
   const url = apiString;
   const response = await fetch(url);
   const blob = await response.blob();
-  console.log(url);
 
   return URL.createObjectURL(blob);
 };
 
 export const getMap = async (apiString) => {
-  const response = await fetch(
-    `https://maplestory.io/api/THMS/20.1.0/map/1130000/render`
-  );
+  const response = await fetch(apiString);
   const blob = await response.blob();
   return URL.createObjectURL(blob);
 };
